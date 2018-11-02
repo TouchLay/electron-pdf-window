@@ -2196,3 +2196,14 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
+
+
+/* OVERRIDES FOR AUTOSTART-PDF */
+#toolbarContainer'{
+  display: none;
+}
+
+#viewerContainer {
+  top: 0px;
+  overflow: hidden;
+}
